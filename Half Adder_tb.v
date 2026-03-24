@@ -28,7 +28,7 @@ reg ck;
 wire Cout;
 wire [3:0] Sum;
 
-New_Adder dut(a,b,ck,Sum,Cout);
+Half_Adder dut(a,b,ck,Sum,Cout);
 always
 begin 
     #10 ck = 0;
